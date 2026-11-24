@@ -1,0 +1,30 @@
+# Runtime state can contain private titles, names and application paths.
+*.json
+!vendor/provenance.json
+*.json.*
+*.log
+*.log.*
+*.bak
+*.old
+*.tmp
+
+# Local configuration and credentials.
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+.vscode/
+.idea/
+.codex/
+.agents/
+task-context/
+
+# Generated packages and desktop metadata.
+*.zip
+*.zip.sha256
+*.lnk
+.DS_Store
+Thumbs.db
+desktop.ini

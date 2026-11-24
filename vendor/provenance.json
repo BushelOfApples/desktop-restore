@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/MScholtes/PSVirtualDesktop",
+  "commit": "175367d111f86b465fcf54e46a3cbcb96163521f",
+  "commit_date": "2025-08-25T15:45:30Z",
+  "files": {
+    "license": {
+      "repository_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/MScholtes/PSVirtualDesktop/175367d111f86b465fcf54e46a3cbcb96163521f/LICENSE",
+      "sha256": "63b3f2643478361bfdc9dfc963510cb940d1d53c8b1b30ff08dfbc4b1011e17e"
+    },
+    "manifest": {
+      "repository_path": "Module/VirtualDesktop.psd1",
+      "url": "https://raw.githubusercontent.com/MScholtes/PSVirtualDesktop/175367d111f86b465fcf54e46a3cbcb96163521f/Module/VirtualDesktop.psd1",
+      "sha256": "ace1417ae7ef739737aeca2066529114ba85c26df554d1e8b238da5686fb6515"
+    },
+    "source": {
+      "repository_path": "Module/VirtualDesktop.ps1",
+      "url": "https://raw.githubusercontent.com/MScholtes/PSVirtualDesktop/175367d111f86b465fcf54e46a3cbcb96163521f/Module/VirtualDesktop.ps1",
+      "sha256": "108ba45ccbe1b077a79c36953535dbdd2920e1aa03a51f935bbd06b6fb61747c"
+    }
+  },
+  "source_matches_original_download": true,
+  "local_modifications": [
+    "Expose Desktop.Id",
+    "Add Desktop.MoveExactWindow without fallback",
+    "Normalize line endings and use UTF-8 BOM"
+  ],
+  "modified_source_sha256": "75c22bca812dab7cddc1488e6ba1877ff26216b5f3665bca57013de1767a9195"
+}
